@@ -1,6 +1,7 @@
 # WildStream Project
 
 ✨ We make streaming cozy ✨
+
 Welcome to WildStream, an open-source project aimed at enhancing the streaming experience for both viewers and streamers.
 
 ## About WildStream
@@ -15,10 +16,6 @@ WildStream is a collaborative initiative to improve the world of streaming. Our 
 
 ## How to Contribute
 
-We welcome contributors of all levels to help us build and refine WildStream. If you have ideas, bug fixes, or new features to propose, please check out our [contribution guidelines](CONTRIBUTING.md).
-
-## Get Started
-
-To get started with WildStream, follow the steps in our [installation guide](docs/installation.md).
+We welcome contributors of all levels to help us build and refine WildStream.
 
 Let's make streaming wilder and more enjoyable together! 🚀
