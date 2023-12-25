@@ -1,37 +1,24 @@
-# Mantine Next.js template
+# WildStream Project
 
-This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
-If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
+✨ We make streaming cozy ✨
+Welcome to WildStream, an open-source project aimed at enhancing the streaming experience for both viewers and streamers.
+
+## About WildStream
+
+WildStream is a collaborative initiative to improve the world of streaming. Our mission is to create a platform that not only provides innovative features for streamers but also ensures an engaging and enjoyable experience for viewers.
 
 ## Features
 
-This template comes with the following features:
+- **Enhanced Viewer Interaction:** WildStream introduces exciting features to boost viewer engagement during live streams.
+- **Streamer-Friendly Tools:** We provide streamers with powerful tools and utilities to customize and enhance their streaming setups.
+- **Open Source:** WildStream is an open-source project, and we encourage contributions from the community to make streaming better for everyone.
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+## How to Contribute
 
-## npm scripts
+We welcome contributors of all levels to help us build and refine WildStream. If you have ideas, bug fixes, or new features to propose, please check out our [contribution guidelines](CONTRIBUTING.md).
 
-### Build and dev scripts
+## Get Started
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+To get started with WildStream, follow the steps in our [installation guide](docs/installation.md).
 
-### Testing scripts
-
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
-
-### Other scripts
-
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+Let's make streaming wilder and more enjoyable together! 🚀
