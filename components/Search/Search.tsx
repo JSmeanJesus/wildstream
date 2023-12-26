@@ -1,4 +1,4 @@
-import { Flex, Input } from '@mantine/core';
+import { Input } from '@mantine/core';
 //import classes from './Search.module.css';
 
 interface SearchProps {
@@ -7,7 +7,5 @@ interface SearchProps {
 }
 
 export const Search: React.FC<SearchProps> = () => (
-  <Flex>
-    <Input variant="unstyled" size="xl" radius="xs" placeholder="Введите имя стримера" />
-  </Flex>
+  <Input variant="unstyled" size="xl" radius="xs" placeholder="Введите имя стримера" />
 );

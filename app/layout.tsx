@@ -3,6 +3,7 @@ import React from 'react';
 import { MantineProvider, ColorSchemeScript, Container } from '@mantine/core';
 import { theme } from '../theme';
 import { Header } from '@/components/Header/Header';
+import { Providers } from '@/components/Providers/Providers';
 
 export const metadata = {
   title: 'Wildstream',
@@ -21,12 +22,14 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>
-          <Container>
-            <Header />
-          </Container>
-          {children}
-        </MantineProvider>
+        <Providers>
+          <MantineProvider theme={theme}>
+            <Container>
+              <Header />
+            </Container>
+            {children}
+          </MantineProvider>
+        </Providers>
       </body>
     </html>
   );
