@@ -10,7 +10,7 @@ export function Welcome() {
           Wildstream
         </Text>
       </Title>
-      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
+      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="sm">
         Мы делаем стримы комфортными.
       </Text>
     </>
