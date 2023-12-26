@@ -1,7 +1,7 @@
-// import { Welcome } from './Header';
+import { Header } from './Header';
 
-// export default {
-//   title: 'Welcome',
-// };
+export default {
+  title: 'Header',
+};
 
-// export const Usage = () => <Welcome />;
+export const Usage = () => <Header />;

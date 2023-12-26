@@ -19,8 +19,11 @@ export function ColorSchemeToggle() {
   };
 
   return (
-    <Group justify="center">
+    <Group style={{ width: 105 }} justify="center">
       <Select
+        size="md"
+        variant="unstyled"
+        radius="xl"
         placeholder="Change theme"
         data={['light', 'dark', 'auto']}
         value={selectedTheme}
